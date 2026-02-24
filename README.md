@@ -14,7 +14,7 @@
   <b>Minimalistic • Evolvable • Secure-by-Design • Embedded Friendly</b>
 </p>
 
----
+## Структура
 
 ## 🌍 Что это
 
@@ -103,7 +103,8 @@ sequenceDiagram
 
 ✅ Защита: MAC на `ServerHello` + привязка к параметрам handshake.
 
----
+```python
+from eelp.protocol import EELPPeer
 
 ### 2) Downgrade (принудительный старый suite/version)
 
